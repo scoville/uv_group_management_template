@@ -1,6 +1,8 @@
 # uv group management template
-This repo is to show and summarize the group management procedures for uv
+This repo is to show and summarize the group management procedures for uv.
 
+
+## Procedures
 
 1. create a `pyproject.toml` file
 2. add package to main
@@ -34,6 +36,9 @@ This repo is to show and summarize the group management procedures for uv
 
     note:
     package related info will be added to pyproject.toml and uv.lock. Also package will be added to virtual python (.venv)
+
+
+After the runing above procedures,  it will result the `pyproject.toml` and `uv.lock` files in this repo
 
 5. install packages in only main to system default python (non-virual) 
 
@@ -73,6 +78,5 @@ This repo is to show and summarize the group management procedures for uv
     ```shell
     uv export --only-group unittest --format requirements-txt > requirements_only_unittest.txt`
     uv pip install -r requirements_only_unittest.txt
-    ```
-
+    ``` 
 
