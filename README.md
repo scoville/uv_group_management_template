@@ -8,7 +8,7 @@ The group manament have 2 parts:
     1. Install packages to virtual python (recommended) or
     2. Install packages to system default python 
 
-we recommended install packages to virtual python instead of system default python since this is not only sample and strictly foreward but also no extra `requirement.txt` will be generated
+we recommended install packages to virtual python instead of system default python since this is not only sample and strictly forward but also no extra `requirement.txt` will be generated
 
 ## Procedures
 
