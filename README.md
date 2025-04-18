@@ -40,7 +40,7 @@ This repo is to show and summarize the group management procedures for uv.
 
 After the runing above procedures,  it will result the `pyproject.toml` and `uv.lock` files in this repo
 
-5. install packages in only main to system default python (non-virual) 
+5. install packages in only main (recorded in uv.lock) to system default python (non-virual) 
 
     eg. 
     ```shell
@@ -49,7 +49,7 @@ After the runing above procedures,  it will result the `pyproject.toml` and `uv.
     ```
     
 
-6. install packages in both main and dev group to system default python (non-virual) 
+6. install packages in both main and dev group (recorded in uv.lock) to system default python (non-virual) 
 
     eg. 
     ```shell
@@ -57,14 +57,14 @@ After the runing above procedures,  it will result the `pyproject.toml` and `uv.
     uv pip install -r requirements_dev.txt
     ```
 
-7. install packages in both main and other group to system default python (non-virual) 
+7. install packages in both main and other group (recorded in uv.lock) to system default python (non-virual) 
      eg. 
     ```shell
     uv export --group unittest --no-dev --format requirements-txt > requirements_unittest.txt`
     uv pip install -r requirements_unittest.txt
     ```
 
-8. install packages in only dev to system default python (non-virual) 
+8. install packages in only dev (recorded in uv.lock) to system default python (non-virual) 
 
     eg. 
     ```shell
@@ -72,7 +72,7 @@ After the runing above procedures,  it will result the `pyproject.toml` and `uv.
     uv pip install -r requirements_only_dev.txt
     ```
 
-9. install packages in only other group to system default python (non-virual) 
+9. install packages in only other group (recorded in uv.lock) to system default python (non-virual) 
 
     eg. 
     ```shell
