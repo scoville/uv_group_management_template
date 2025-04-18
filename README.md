@@ -1,5 +1,5 @@
 # uv group management template
-This repo is to show the group management procedures for uv
+This repo is to show and summarize the group management procedures for uv
 
 
 1. create a `pyproject.toml` file
