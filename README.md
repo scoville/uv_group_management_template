@@ -44,7 +44,7 @@ After the runing above procedures,  it will result the `pyproject.toml` and `uv.
 
     eg. 
     ```shell
-    uv export --no-dev --format requirements-txt > requirements.txt`
+    uv export --no-dev --format requirements-txt > requirements.txt
     uv pip install -r requirements.txt
     ```
     
@@ -53,14 +53,14 @@ After the runing above procedures,  it will result the `pyproject.toml` and `uv.
 
     eg. 
     ```shell
-    uv export --format requirements-txt > requirements_dev.txt`
+    uv export --format requirements-txt > requirements_dev.txt
     uv pip install -r requirements_dev.txt
     ```
 
 7. install packages in both main and other group (recorded in uv.lock) to system default python (non-virual) 
      eg. 
     ```shell
-    uv export --group unittest --no-dev --format requirements-txt > requirements_unittest.txt`
+    uv export --group unittest --no-dev --format requirements-txt > requirements_unittest.txt
     uv pip install -r requirements_unittest.txt
     ```
 
@@ -68,7 +68,7 @@ After the runing above procedures,  it will result the `pyproject.toml` and `uv.
 
     eg. 
     ```shell
-    uv export --only-group dev --format requirements-txt > requirements_only_dev.txt`
+    uv export --only-group dev --format requirements-txt > requirements_only_dev.txt
     uv pip install -r requirements_only_dev.txt
     ```
 
@@ -76,7 +76,7 @@ After the runing above procedures,  it will result the `pyproject.toml` and `uv.
 
     eg. 
     ```shell
-    uv export --only-group unittest --format requirements-txt > requirements_only_unittest.txt`
+    uv export --only-group unittest --format requirements-txt > requirements_only_unittest.txt
     uv pip install -r requirements_only_unittest.txt
     ``` 
 
