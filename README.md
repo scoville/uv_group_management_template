@@ -40,7 +40,7 @@ we recommended install packages to virtual python instead of system default pyth
 
     eg. 
     ```shell
-    uv add --group unittest
+    uv add --group unittest pytest
     ```
 
     note:
